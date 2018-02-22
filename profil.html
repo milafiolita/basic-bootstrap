@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form Registrasi</title>
+
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<style type="text/css">
+.row{
+  margin: 10px;
+}
+#gambar{
+  padding-right: 0px;
+}
+#isiProfil{
+  padding-left: 0px;
+}
+/* change the brand and text color */
+.navbar-light .navbar-text,{
+  color: rgba(255, 255, 255, 0.64);
+}
+/* change the link color */
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.64);
+}
+.navbar-light .nav-item:hit{
+  color: rgba(255, 255, 255, 0.64); 
+}
+.navbar-light .navbar-brand{
+  color: #ffffff;
+}
+/* change the color of active or hovered links */
+.navbar-light .nav-item.active .nav-link,
+.navbar-light .nav-item:hover .nav-link,
+.navbar-light .navbar-brand:hover {
+  color: #25fde9;
+}
+  
+#foto {
+  width: 80%;
+}
+  
+footer {
+  position: relative;
+  height: 70;
+  clear:both;
+  padding-top:20px;
+}
+</style>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(2, 113, 165);">
+  <div class="container-fluid">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <a class="navbar-brand" href="#"> Brand</a>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+  </div>
+</nav>
+
+<div class="container-fluid">
+  <div class="row" style="margin: 10px">
+    <div class="col-md-4" align="center" id="gambar">
+      <img id="foto" src="https://avatars3.githubusercontent.com/u/36026970?s=400&u=d584e409531f27677250204b426fea9fb9f78fa9&v=4" alt="Avatar" class="img-fluid img-thumbnail">
+      <p><h3>Mila Fiolita</h3></p>
+    </div>
+    
+    <div class="col-md-8" id="isiProfil">
+      <table class="table">
+        <div align="center"><p><h3>PROFIL</h3></p></div>
+        <tr class="table-info">
+          <td>Nama</td>
+          <td>:</td>
+          <td>Mila Fiolita</td>
+        </tr>
+        <tr>
+          <td>Tanggal Lahir</td>
+          <td>:</td>
+          <td>Grobogan, 1 juni 1995</td>
+        </tr>
+        <tr class="table-info">
+          <td>Jenis Kelamin</td>
+          <td>:</td>
+          <td>Perempuan</td>
+        </tr>
+        <tr>
+          <td>Alamat</td>
+          <td>:</td>
+          <td>Beringin Lestari B.IV no.1 Rt.1 / Rw.1 Kel. Wonosari Kec. Ngaliyan</td>
+        </tr>
+        <tr class="table-info">
+            <td>Agama</td>
+            <td>:</td>
+            <td>Islam</td>
+          </tr>
+        </table>
+    </div>
+
+  <footer class="col-md-12 text-center">
+    <p style="color: black;">2018 © All Rights Reserved</p>
+  </footer>
+  </div>
+</div>
+</body>
+</html> 
